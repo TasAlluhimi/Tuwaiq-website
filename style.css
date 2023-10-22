@@ -37,6 +37,10 @@
     color: #54BBBD; 
 }
 
+.main-nav:hover{
+    color: #54BBBD; 
+}
+
 .video-container { 
     position:relative;
 }
@@ -52,20 +56,26 @@
 }
 
 .main-paragraph {
+    /* background-color: rgba(37, 72, 92, 0.3); */
+    width: 100%;
+    height: 100%;
+    /* min-width: 100%;
+    min-height: 100%; */
     color: white;
     font-family: 'Droid Arabic Kufi', serif;
     font-size: 5rem;
     position:absolute;
+    /* bottom: 0;
+    right: 0; */
     top:30%;
     left: 36%;
-    z-index:1;
-
+    /* z-index:10; */
 }
 
 .main-button{
     color:#ffffff;
     background-color: rgb(84,187,189);
-    border-radius: 10px;
+    border-radius: 30px;
     font-size: xx-large;
     font-weight: bold;
     width: 30vw;
@@ -85,10 +95,11 @@
 .second-section{
     background-color: rgb(242,244,247);
     height: 100vh;
-
+    position: relative;
+    height: 80vh;
 }
 
-.bootcamps-and-programs{
+.main-titles{
     font-size: 2rem;
     font-weight: bolder;
     text-align: center;
@@ -97,7 +108,6 @@
 }
 
 .bootcamps-and-programs-box-container{
-    /* display: flex; */
     position: relative;
 }
 
@@ -105,7 +115,7 @@
 .bootcamps-and-programs-box{
     background-color: white; 
     height: 40vh; 
-    width: 30vw; 
+    width: 25vw; 
     border-radius: 5%;
     border-right: 15px solid rgb(84,187,189);
 }
@@ -113,14 +123,258 @@
 .reverse-paragraph{
     position:absolute;
     color: #54BBBD; 
-    top: 20px;
-    left: 26%;
+    top: 30px;
+    left: 77%;
 }
 
-.reverse-content{
+.reverse-content1{
     position:absolute;
     color: #000000; 
     font-weight: bold;
-    top: 55px;
-    left: 6%;
+    top: 75px;
+    left: 16%;
+}
+
+.reverse-content2{
+    position:absolute;
+    color: #000000; 
+    font-weight: bold;
+    top: 75px;
+    left: 25%;
+}
+
+.reverse-content3{
+    position:absolute;
+    color: #000000; 
+    font-weight: bold;
+    top: 75px;
+    left: 60%;
+}
+
+.programs-details{
+    position: absolute;
+    width: 40%;
+    justify-content: space-evenly;
+    display: flex;
+    align-self: flex-end;
+    /* align-items: end; */
+    top: 65%;
+    left: 50%;
+}
+
+.programs-details2{
+    display: flex;
+    position: absolute;
+    width: 80%;
+    top: 80%;
+    left: 10%;
+}
+
+.button-details{
+    background-color: white;
+    width: 6vw;
+    border-radius: 30px;
+    height: 4vh;
+    color: #54BBBD;
+    border-color: #54BBBD;
+    
+}
+
+.more-button{
+    position: absolute;
+    background-color: rgb(242,244,247);
+    color: rgb(78,55,151);
+    border-color: rgb(78,55,151);
+    border-radius: 30px;
+    width: 12vw;
+    height: 5vh;
+    top: 85%;
+    left: 45%;
+}
+
+/* 3rd section  */
+
+.thired-section{
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    position: relative;
+}
+
+.academy-numbers-container{
+    position: relative;
+}
+
+.academy-numbers-box{
+    background-color: white; 
+    height: 40vh; 
+    width: 15vw; 
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.circle-design{
+    position: absolute;
+    left: 33%;
+    bottom: 90%;
+    background-color: rgb(145,216,219);
+    width: 4.5vw;
+    height: 9vh;
+    border-radius: 100px;
+    border: none;
+}
+
+/* divided box info  */
+.academy-numbers-box-content-1{
+    position:absolute;
+    color: rgb(145,216,219);
+    font-size: x-large;
+    font-weight: bold;
+    top: 90px;
+    left: 20%;
+    text-align: center;
+}
+
+.academy-numbers-box-content-1-1{
+    position:absolute;
+    color:  rgb(78,55,151); 
+    font-size: xxx-large;
+    font-weight: bold;
+    bottom: 90px;
+    left: 15%;
+    text-align: center;
+}
+
+.academy-numbers-box-content-1-2{
+    position:absolute;
+    font-weight: bold;
+    top: 80%;
+    left: 40%;
+}
+
+.read-button{
+    position: absolute;
+    background-color: rgb(242,244,247);
+    color: rgb(78,55,151);
+    border-color: rgb(78,55,151);
+    border-radius: 30px;
+    width: 12vw;
+    height: 5vh;
+    top: 85%;
+    left: 45%;
+}
+
+.academy-activity-container{
+    position: relative;
+}
+
+.academy-activity-box{
+    background-color: white; 
+    height: 50vh; 
+    width: 15vw; 
+    border-radius: 5%;
+}
+
+/* fourth section  */
+
+.fourth-section{
+    background-color: rgb(78,55,151); 
+    height: 100vh;
+    position: relative;
+}
+
+.activity-icons{
+    position: absolute;
+    left: 37%;
+    bottom: 70%;
+    width: 3.5vw;
+    height: 20vh;
+}
+
+.academy-activity-box-content-1{
+    position:absolute;
+    color: rgb(145,216,219);
+    font-size: x-large;
+    font-weight: bold;
+    bottom: 60%;
+    left: 37%;
+    text-align: center;
+}
+
+.academy-activity-box-content-2{
+    position:absolute;
+    width: 10vw;
+    color: rgb(0, 0, 0);
+    bottom: 20%;
+    left: 15%;
+    text-align: justify;
+    /* text-align: center; */
+}
+
+.learn-more-button{
+    position: absolute;
+    background-color: rgb(78,55,151);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    width: 12vw;
+    height: 5vh;
+    top: 85%;
+    left: 10%;
+    border: none;
+}
+
+/* fifth section  */
+
+.fifth-section{
+    background-color: rgb(242,244,247);
+    height: 65vh;
+}
+
+.companies-container{
+    display: flex;
+}
+
+.companies-box{
+    align-items: center;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+}
+
+/* sixth section  */
+
+.mail-div{
+    /* position: relative; */
+    background-color: #54BBBD;
+    height: 45vh;
+}
+
+.container-div{
+    display: flex;
+    align-items: center;
+}
+
+.mail-button{
+        /* position: absolute; */
+        background-color: rgb(78,55,151);
+        color: rgb(255, 255, 255);
+        border-radius: 30px;
+        width: 12vw;
+        height: 5vh;
+        top: 85%;
+        left: 10%;
+        border: none;  
+}
+
+/* footer design  */
+
+.footer-details{
+    background-color: rgb(78,55,151); 
+    height: 30vh; 
+    /* display: flex;  */
+    /* align-items: center; */
+
+}
+.footer-p{
+    color: white;
 }
